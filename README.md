@@ -79,3 +79,5 @@ This project is licensed for Sadhanakari Venkata kalyan.
 
 Acknowledgments
 Special thanks to all contributors and supporters who help make Orphan Serve a reality. Together, we can make a positive impact on the lives of orphans and provide them with the love and support they deserve.
+![orphan_serve logo](https://github.com/user-attachments/assets/6f7eeb39-d633-49ae-833e-c6add5b391ff)
+
