@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoptor page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark header-1">
+    <img src="./Orphan_serve logo.png" alt="logo">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./adopt.html">Adopt</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./educate.html">Educate</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <button class="btn btn-outline-success ms-auto btnLogin-popup" type="button"><a href="./login.html">Login</a></button>
+    </div>
+    </nav>
+
+    <div class="container">
+        <h2 class="text-center">Adopt a Child</h2>
+        <form>
+            <div class="form-group">
+                <label for="adopterName">Your Name</label>
+                <input type="text" class="form-control" id="adopterName" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="adopterEmail">Email address</label>
+                <input type="email" class="form-control" id="adopterEmail" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="adopterMessage">Message</label>
+                <textarea class="form-control" id="adopterMessage" rows="4" placeholder="Tell us about your interest"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <hr>
+        <h3>Available Children</h3>
+        <div class="card-deck">
+            <!-- Example card -->
+            <div class="card">
+                <img class="card-img-top" src="./child-image1.jpeg" alt="Child">
+                <div class="card-body">
+                    <h5 class="card-title">Devendra</h5>
+                    <p class="card-text">Age: 5 | Interests: Reading, Drawing</p>
+                    <a href="#" class="btn btn-primary">Express Interest</a>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </div>
+<div>
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+        <footer class="py-3 my-4 bg-dark text-white text-center py-3">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="./index.html" class="nav-link px-2 ">Home</a></li>
+            <li class="nav-item"><a href="./adopt.html" class="nav-link px-2 ">Adopt</a></li>
+            <li class="nav-item"><a href="./educate.html" class="nav-link px-2 ">Educate</a></li>
+            <li class="nav-item"><a href="./contact.html" class="nav-link px-2 ">Contact</a></li>
+          </ul>
+          <p class="text-center">&copy; 2024 Kalyan. All Rights Reserved.</p>
+        </footer>
+    </div>
+  </footer>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
